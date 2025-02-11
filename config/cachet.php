@@ -81,6 +81,7 @@ return [
 
     'api_middleware' => [
         'api',
+        \Cachet\Http\Middleware\ApiPublicOrProtected::class,
     ],
 
     /*
